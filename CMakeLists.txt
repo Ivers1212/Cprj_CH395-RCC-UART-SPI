@@ -1,7 +1,9 @@
 #CMakeLists.txt
 cmake_minimum_required(VERSION 3.20)
 
-project(CPRJ_CH395_NET_SER_TTL422 C ASM)
+project(CPrj_Module C ASM)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 message(STATUS "CMAKE_TOOLCHAIN_FILE = ${CMAKE_TOOLCHAIN_FILE}")
 message(STATUS "CMAKE_C_COMPILER    = ${CMAKE_C_COMPILER}")
