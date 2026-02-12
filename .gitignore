@@ -2,3 +2,5 @@
 *build*/
 *cache*
 cmake_tmp/
+*tmp*/
+*tmp*
