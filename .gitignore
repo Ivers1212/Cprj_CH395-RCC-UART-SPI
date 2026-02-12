@@ -1,3 +1,4 @@
 # direction
 build/
 *cache*
+cmake_tmp/
