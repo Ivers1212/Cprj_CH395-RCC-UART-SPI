@@ -18,4 +18,3 @@ target_link_options(${PROJECT_NAME} PRIVATE
     -Wl,-Map=${PROJECT_NAME}.map
     --specs=nosys.specs
 )
-

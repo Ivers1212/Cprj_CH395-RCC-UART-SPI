@@ -9,4 +9,6 @@ project/
   ├─cmake/ # 或make scripts
   └─docs/ # 文档/调试记录
 
+```bash
 cmake -G "Ninja" -S .. -B . -DCMAKE_TOOLCHAIN_FILE=../cmake/toolchain.cmake
+```

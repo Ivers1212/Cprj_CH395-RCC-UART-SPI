@@ -11,4 +11,3 @@ set(CMAKE_SIZE         arm-none-eabi-size)
 
 # 避免 try_compile 去生成 host 可执行文件
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
-

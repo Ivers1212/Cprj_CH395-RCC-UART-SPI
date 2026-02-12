@@ -28,4 +28,3 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/start
     ${CMAKE_SOURCE_DIR}/start/inc
 )
-

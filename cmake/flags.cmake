@@ -16,10 +16,18 @@ add_compile_options(
     -Wall
     -Wextra
     -Wno-unused-parameter
+
+    #Debug flags
+    $<$<CONFIG:Debug>:-Og>
+    $<$<CONFIG:Debug>:-g3>
+    $<$<CONFIG:Debug>:-ggdb>
+
+    #Release flags
+    $<$<CONFIG:Release>:-O2>
 )
 
 # ---- Chip selection for CMSIS ----
 add_compile_definitions(
     STM32F103xB     # the correct device macro for F103C8
+    $<$<CONFIG:Debug>:DEBUG>
 )
-

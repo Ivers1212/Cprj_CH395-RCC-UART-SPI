@@ -166,8 +166,10 @@ void PendSV_Handler(void) {
 /**
  * @brief This function handles System tick timer.
  */
+volatile long g_ms;
 void SysTick_Handler(void) {
   /* USER CODE BEGIN SysTick_IRQn 0 */
+  g_ms++;
 
   /* USER CODE END SysTick_IRQn 0 */
   /* USER CODE BEGIN SysTick_IRQn 1 */
