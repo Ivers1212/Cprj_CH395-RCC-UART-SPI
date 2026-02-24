@@ -1,68 +1,62 @@
 [
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\app\\main.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\app\\main.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o app\\CMakeFiles\\app_lib.dir\\main.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\app\\main.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app/main.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/app/main.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/app/CMakeFiles/app_lib.dir/main.c.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\app\\uart_packet.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\app\\uart_packet.c",
-  "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app/uart_packet.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/app/uart_packet.c.obj"
-},
-{
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\bsp\\bsp_ch395_pins.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\bsp\\bsp_ch395_pins.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o bsp\\CMakeFiles\\bsp_lib.dir\\bsp_ch395_pins.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\bsp\\bsp_ch395_pins.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp/bsp_ch395_pins.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/bsp/bsp_ch395_pins.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/bsp/CMakeFiles/bsp_lib.dir/bsp_ch395_pins.c.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\bsp\\bsp_spi.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\bsp\\bsp_spi.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o bsp\\CMakeFiles\\bsp_lib.dir\\bsp_spi.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\bsp\\bsp_spi.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp/bsp_spi.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/bsp/bsp_spi.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/bsp/CMakeFiles/bsp_lib.dir/bsp_spi.c.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\bsp\\bsp_uart_dma.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\bsp\\bsp_uart_dma.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o bsp\\CMakeFiles\\bsp_lib.dir\\bsp_uart_dma.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\bsp\\bsp_uart_dma.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp/bsp_uart_dma.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/bsp/bsp_uart_dma.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/bsp/CMakeFiles/bsp_lib.dir/bsp_uart_dma.c.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\middleware\\ch395\\ch395_cmd.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\middleware\\ch395\\ch395_cmd.c",
-  "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395/ch395_cmd.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/middleware/ch395/ch395_cmd.c.obj"
-},
-{
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\middleware\\ch395\\ch395_hw.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\middleware\\ch395\\ch395_hw.c",
-  "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395/ch395_hw.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/middleware/ch395/ch395_hw.c.obj"
-},
-{
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\mcu\\sys_stubs.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\mcu\\sys_stubs.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o mcu\\CMakeFiles\\mcu_lib.dir\\sys_stubs.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\mcu\\sys_stubs.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu/sys_stubs.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/mcu/sys_stubs.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/mcu/CMakeFiles/mcu_lib.dir/sys_stubs.c.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\mcu\\system_stm32f1xx.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\mcu\\system_stm32f1xx.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o mcu\\CMakeFiles\\mcu_lib.dir\\system_stm32f1xx.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\mcu\\system_stm32f1xx.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu/system_stm32f1xx.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/mcu/system_stm32f1xx.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/mcu/CMakeFiles/mcu_lib.dir/system_stm32f1xx.c.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\start\\startup_stm32f103xb.s.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\start\\startup_stm32f103xb.s",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o middleware\\ch395\\CMakeFiles\\ch395_lib.dir\\ch395_cmd.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\middleware\\ch395\\ch395_cmd.c",
+  "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395/ch395_cmd.c",
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/middleware/ch395/CMakeFiles/ch395_lib.dir/ch395_cmd.c.obj"
+},
+{
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o middleware\\ch395\\CMakeFiles\\ch395_lib.dir\\ch395_hw.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\middleware\\ch395\\ch395_hw.c",
+  "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395/ch395_hw.c",
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/middleware/ch395/CMakeFiles/ch395_lib.dir/ch395_hw.c.obj"
+},
+{
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -o start\\CMakeFiles\\start.dir\\startup_stm32f103xb.s.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\start\\startup_stm32f103xb.s",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/startup_stm32f103xb.s",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/start/startup_stm32f103xb.s.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/start/CMakeFiles/start.dir/startup_stm32f103xb.s.obj"
 },
 {
-  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build",
-  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/app -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/bsp -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/mcu -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/middleware/ch395 -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -std=gnu11 -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\CPrj_CH395.dir\\start\\stm32f1xx_it.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\start\\stm32f1xx_it.c",
+  "directory": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug",
+  "command": "C:\\Users\\Ivers\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -DDEBUG=1 -DSTM32F103xB -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start -IF:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/inc -g -mcpu=cortex-m3 -mthumb -ffreestanding -fdata-sections -ffunction-sections -fno-common -Og -g3 -Wall -Wextra -o start\\CMakeFiles\\start.dir\\stm32f1xx_it.c.obj -c F:\\OneDrive\\00_work\\CPrj_CH395-NET-SER-TTL422\\start\\stm32f1xx_it.c",
   "file": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/start/stm32f1xx_it.c",
-  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build/CMakeFiles/CPrj_CH395.dir/start/stm32f1xx_it.c.obj"
+  "output": "F:/OneDrive/00_work/CPrj_CH395-NET-SER-TTL422/build-debug/start/CMakeFiles/start.dir/stm32f1xx_it.c.obj"
 }
 ]
