@@ -32,14 +32,14 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 ##--- 添加子目录 ---
 add_subdirectory(app)
 add_subdirectory(bsp)
-add_subdirectory(mcu)
+#add_subdirectory(mcu)
 add_subdirectory(middleware/ch395)
 add_subdirectory(start)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
   app_lib
   bsp_lib
-  mcu_lib
+  #mcu_lib
   ch395_lib
   start_lib
 )
