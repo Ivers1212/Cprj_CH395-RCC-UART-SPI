@@ -12,7 +12,10 @@ project(
 
 #--- 工程的可执行文件 ---
 
-add_executable(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/app/entry.c")
+add_executable(${PROJECT_NAME}
+  "${PROJECT_SOURCE_DIR}/app/main.c"
+  #"${PROJECT_SOURCE_DIR}/start/sys_stubs.c"
+)
 
 #--- 生成JSON文件 ---
 
@@ -36,12 +39,16 @@ add_subdirectory(bsp)
 add_subdirectory(middleware/ch395)
 add_subdirectory(start)
 
+target_sources(${PROJECT_NAME} PRIVATE
+  $<TARGET_OBJECTS:start_obj>
+)
+
 target_link_libraries(${PROJECT_NAME} PRIVATE
-  app_lib
+  #app_lib
   bsp_lib
   #mcu_lib
   ch395_lib
-  start_lib
+  #start
 )
 
 #--- postbuild ---

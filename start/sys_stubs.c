@@ -1,6 +1,11 @@
-// mcu/sys_stubs.c
+// start/sys_stubs.c
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-// 强制 Thumb + 空函数 + 避免 newlib relocation 错误
-__attribute__((naked)) void _init(void) { __asm__("bx lr"); }
+void _init(void) {}
+void _fini(void) {}
 
-__attribute__((naked)) void _fini(void) { __asm__("bx lr"); }
+#ifdef __cplusplus
+}
+#endif

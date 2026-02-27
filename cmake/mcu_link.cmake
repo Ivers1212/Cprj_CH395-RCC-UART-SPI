@@ -18,5 +18,4 @@ target_link_options(mcu_link INTERFACE
   -nostdlib
   -Wl,--gc-sections
   "-Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map"
-  --specs=nosys.specs
 )
